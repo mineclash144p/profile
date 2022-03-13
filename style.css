@@ -1,0 +1,113 @@
+*{
+    text-decoration: none;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    background: #ffffff;
+    background-image: url(put your background image);
+}
+
+/*card box*/
+
+.card {
+    background: rgba(0, 0, 0, 0.8);
+    width: 300px;
+    height: 430px;
+    border-radius: 10px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    box-shadow: 0px 1px 10px 1px rgb(0, 0, 0);
+    overflow: hidden;
+    display: inline-block;
+}
+
+/* nome do usuário*/
+.name {
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -10%);
+}
+
+.name h2 {
+    color: white;
+    font-family: 'Roboto', sans-serif;
+}
+
+ /* nome no dc e a tag */
+.dc-tag {
+    position: absolute;
+    top: 53%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -10%);
+}
+
+.dc-tag h5 {
+    color: rgb(177, 177, 177);
+    font-family: 'Roboto', sans-serif;
+}
+
+/*imagem de perfil*/
+.img {
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -10%);
+
+}
+
+.img img {
+    border-radius: 50%;  
+    width: 100px;
+    height: 100px;
+}
+
+/* ícones dos sites*/
+.icons {
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -80%);
+}
+
+.icons {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+}
+
+.icons div {
+    display: inline-flex;
+    margin: 0 5px;
+    height: 40px;
+    width: 40px;    
+    border-radius: 50%;
+}
+
+.icons div a {
+    font-size: 25px;
+    margin-top: 20%;
+    margin-left: 20%;
+}
+
+.icons div.twitter a {
+    color: #1DA1F2 ;
+}
+
+.icons div.reddit a {
+    color:  #ff4500;
+}
+
+.icons div.github a {
+    color: #ffffff;
+}
+
